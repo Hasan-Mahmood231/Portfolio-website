@@ -2,15 +2,12 @@
 
 const roles = ["Frontend Developer", "Data Science Learner", "AI Explorer"];
 let index = 0;
-
 function changeText() {
   document.getElementById("changing-text").textContent = roles[index];
   index = (index + 1) % roles.length;
 }
 
 setInterval(changeText, 2300); // Change text every 2.3 seconds
-
-
 let menuicon = document.getElementById(`menu-icon`);
 let navbar = document.querySelector(`.navbar`);
 menuicon.onclick = () => {
@@ -18,7 +15,6 @@ menuicon.onclick = () => {
     navbar.classList.toggle(`active`);
 
 };
-
 window.onscroll = () => {
     
     menuicon.classList.remove(`fa-xmark`);
