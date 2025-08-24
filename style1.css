@@ -414,6 +414,58 @@ section{
     width: 49%;
   }
 
+  /* ===== Contact Section Styling ===== */
+.contact-section {
+  background: #0d1117;   /* Dark background */
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.contact-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  font-size: 28px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00acee; /* hover effect (blue shade) */
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-top: 20px;
+}
+
+
  /* <--portfolio designe end -------> */
 
 
