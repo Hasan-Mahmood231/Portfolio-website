@@ -1,294 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio website</title>
-    <link rel="stylesheet" href="style1.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--header designe-->
-    <header class="header">
-      <div class="logo">Portfolio Website</div>
-      <i class="fa-solid fa-bars" id="menu-icon"></i>
-      <nav class="navbar" >
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contect">Contect</a>
-      </nav>
-    </header>
-    <section class="home" id="home">
-      <div class="home-content" id="home-content">
-        <h3 >Hy im</h3>
-        <h1 id="name">Hassan Mahmood</h1>
-        <h3>and im a <span id="changing-text">Frontend develpor</span></h3>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Portfolio Website</div>
+        
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <span class="close_menu"><i class="fa-solid fa-xmark"></i></span>
+            </nav>
+        <span class="menu_icon"><i class="fa-solid fa-bars"></i><span>
+    </div> <!-- Header ends here -->
+
+    <!-- =================================================== < Home Section > ===================================================> -->
+
+    <section class="home">
+        <div class="home-content" id="home-content">
+        <div class="left_side">
+        <div style="font-size: 9em; font-weight: 700;">Hy im</div>
+        <h1 id="name" style="color:#00f2ff;">Hassan Mahmood</h1>
+
+        <h3>And Im a <span id="changing-text" style="color: #00f2ff;"></span></h3>
+        <div class="text_content">
         <p>
           Passionate Computer Science student and Frontend Developer dedicated
           to crafting visually stunning, user-friendly websites. Explore my
           portfolio to discover innovative projects and creative solutions that
           transform ideas into engaging digital experiences.
         </p>
+        </div> <!-- Text content ends here -->
+
         <div class="social-media">
-          <a href="https://x.com/HassanKhan73152?s=09"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
+          <a href="https://x.com/HassanKhan73152?s=09"><i class="fa-brands fa-twitter"></i></a>
           <a href="http://www.youtube.com/@Hasnain_Mahmood"><i class="fa-brands fa-youtube"></i></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100091227464984&mibextid=ZbWKwL"
-            target="_parent"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a
-            href="https://www.tiktok.com/@hassanmahmood888?_r=1&_d=eba224fg8blgf6&sec_uid=MS4wLjABAAAAdBFCAHQUYLdh5FOSF151aE3uNrPhEEB_BetwVOVVzj3Ip84xEw2lXlbnyRNLvkzw&share_author_id=7068979582422369285&sharer_language=en&source=h5_m&u_code=e0d20ebb04aell&timestamp=1718884061&user_id=7068979582422369285&sec_user_id=MS4wLjABAAAAdBFCAHQUYLdh5FOSF151aE3uNrPhEEB_BetwVOVVzj3Ip84xEw2lXlbnyRNLvkzw&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7379794926890370822&share_link_id=ecf916d2-027c-4338-b720-ead9ce9e425e&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1"
-            ><i class="fa-brands fa-tiktok"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/hassanmahmood961?igsh=MTZ4NWFsemliMnl2bA=="
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/hassan-mahmood-2277b0282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-
-          <a
-          href="https://github.com/Hasan-Mahmood231"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-
-        <a
-          href="https://wa.me/923425042388"
-          ><i class="fa-brands fa-square-whatsapp"></i
-        ></a>
+          <a href="https://www.instagram.com/hassanmahmood961?igsh=MTZ4NWFsemliMnl2bA=="><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/hassan-mahmood-2277b0282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Hasan-Mahmood231"><i class="fa-brands fa-github"></i></a>
 
         </div>
-        <a href="" class="btn">Download CV</a>
-      </div>
-      <div class="home-img">
-        <img src="profile-pic (1).png" alt="profile" />
-      </div>
+
+        </div> <!-- Left side ends here -->
+
+        <div class="right_side">
+            <div class="main_image">
+                <!-- <img src="Images/main_image.jpg" alt=""> -->
+            </div>
+        </div>
+        </div> <!-- Home-content ends here -->
     </section>
-    <!-- Home section designe -->                                
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="profile-pic (1).png" alt="" />
-      </div>
-      <div class="about-content">
-        <h3 class="start">About <span>Me</span></h3>
-        <p>
-          In the world of technology, every challenge is an opportunity — and I believe the key to thriving here is problem-solving. I'm currently pursuing a BS in Computer Science from Kohat University, with a growing passion for Artificial Intelligence and Data Science. I'm not just learning tech — I'm training myself to be among the best problem solvers, because I believe the future belongs to those who can solve complex problems with clarity and creativity.
-        </p>
-      </div>
-    </section>
-    <!--About  section designe-->
-    <!--Services  section designe-->
 
-    <section class="services" id="services">
-      <h3 class="start">My <span>Skills</span></h3>
-      <div class="services-contaner">
-        <!-- <div class="service-box">
-                    <h1>Web development</h1>
-                    <p>Lorem ipsum dolor sit ametlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad illum at obcaecati earum accusamus architecto ea delectus. Neque asperiores maiores sequi, deserunt vel atque temporibus nihil commodi quae pariatur necessitatibus praesentium, modi dolorum eveniet quibusdam aperiam ab ex quisquam excepturi ullam et officiis amet? Ipsam impedit minima possimus sequi vitae eum debitis numquam beatae perspiciatis distinctio, ea iure ipsum repudiandae assumenda, aut eius deleniti sapiente, doloribus ratione itaque voluptatibus! Perspiciatis sunt dolorem voluptatum laudantium praesentium veritatis facere sint magnam. consectetur adipisicing elit. Voluptatem consequatur ducimus dolor illo quis ut sed, blanditiis provident debitis! Quos corrupti quidem commodi maxime provident ipsa alias saepe esse repudiandae delectus fugit, ipsum possimus cum reprehenderit, natus aperiam illum, odio doloremque minima quaerat distinctio. Numquam minima quae, libero voluptas suscipit soluta laborum eius! Itaque blanditiis obcaecati cupiditate consequuntur vel necessitatibus consectetur! Non molestiae vel repellendus sequi repellat tempore voluptatem velit facilis accusamus voluptas dolorum illum, iusto perferendis expedita, deleniti dolores.</p>
-                </div> -->
+    <!-- =================================================== < About Section > ===================================================> -->
 
-        <div class="our-skill">
-          
-          <div class="skill">
-            <p>C++</p>
-            <div
-              class="progress-line"
-              style="--bg: #ff0aeb; --wd: 79%; --tx: '79%'"
-            >
-              <span></span>
+    <div class="about">
+        <div class="about_content">
+            <span class="about_section_img">
+                <img src="Images/main_image.jpg" alt="">
+            </span><br> <!-- About section image ends here -->
+
+            <span class="about_section_text">
+                <h1>Who is <span style="color: #00f2ff;">Hassan Mahmood</span></h1>
+                <p>
+                    I’m Hassan Mahmood, a Software Engineering student with a strong interest in understanding how technology shapes the future. I see technology as a discipline of problem-solving and structured thinking, where every new concept adds a layer to my understanding.
+
+                </p>
+                <p>
+                    Currently, I’m pursuing my BS in Software Engineering and expanding my knowledge in Artificial Intelligence and Data Science, two fields that I believe will define the next era of innovation. My focus is on building a solid foundation and preparing myself to contribute meaningfully to the world of technology. I am motivated by the idea of continuous growth, where learning is not just a phase but a lifelong journey.
+                </p>
+
+        </span> <!-- About content ends here -->
+    </div> <!-- About section ends here -->
+    </div> <!-- About ends here -->
+
+
+    <!-- <! =================================================== < Progress Section > ===================================================> -->
+
+    <div class="progress_section">
+        <div class="progress_section_content">
+            <div class="progress_section_heading">
+                <span class="progress_heading">Ideas in progress</span>
             </div>
-          </div>
+            <div class="boxes">
 
-          <div class="skill">
-            <p>Python</p>
-            <div
-              class="progress-line"
-              style="--bg: #ff9500; --wd: 86%; --tx: '86%'"
-            >
-              <span></span>
+                <div class="box1">
+                    <div class="box1_icon"><span class="icon_border"><i class="fa-solid fa-users"></i></span></div>
+                    <div class="box1_heading">Hackathon</div>
+                    <div class="box1_discraption">
+                        <p style="color: #c4c4c4;">I’m currently participating in hackathons, where I’m learning how to work in a team, divide tasks, and build solutions under real-world challenges. My focus is not only on coding but also on teamwork, problem-solving, and leadership</p>
+                    </div>
+                </div>
+
+                <div class="box1">
+                    <div class="box1_icon"><span class="icon_border"><i class="fa-solid fa-book"></i></span></div>
+                    <div class="box1_heading">IBM Data Science Course</div>
+                    <div class="box1_discraption">
+                        <p style="color: #c4c4c4;">Alongside team projects, I’m enrolled in the IBM Data Science Professional Certificate. This course is strengthening my foundation in Python, statistics, and machine learning while teaching me how to think with data</p>
+                    </div>
+                </div>
+
+                 <div class="box1">
+                    <div class="box1_icon"><span class="icon_border"><i class="fa-solid fa-chart-column"></i></span></div>
+                    <div class="box1_heading">Career in Data-Driven Solutions</div>
+                    <div class="box1_discraption">
+                        <p style="color: #c4c4c4;">My goal is to build a career in data-driven solutions — applying AI and Data Science to solve real-world problems. I want to combine software engineering with data to design systems that don’t just work but create meaningful impact</p>
+                    </div>
+                </div>
+
+            </div> <!-- Boxes ends here -->
+            <div class="progress_content_last_line">This page is not about finished projects — it’s about growth in motion. I believe learning is a continuous process, and these ideas in progress are steps toward building impactful solutions</div>
+        </div> <!-- Progress section content ends here -->
+    </div> <!-- Progress section ends here -->
+    
+
+    <!-- =================================================== < Proffesioncy Section > ===================================================> -->
+
+
+    <div class="proffesioncy_section">
+        <div class="proffesioncy_content">
+            <div class="proffesioncy_heading">
+                <span class="proffesioncy_heading_text">Technical Proffesioncy</span>
             </div>
-          </div>
+            <div class="boxes_container">
 
-          
-          <div class="skill">
-            <p>Javascrip</p>
-            <div
-              class="progress-line"
-              style="--bg: #1000bc; --wd: 70%; --tx: '70%'"
-            >
-              <span></span>
-            </div>
-          </div>
+                <div class="proffesioncy_box">
+                    <div class="proffesioncy_box_icon"><i class="fa-solid fa-globe"></i></div>
+                    <div class="lines">
+                        <div class="profffesioncy_line_heading"><span style="color: #00f2ff;">Frontend</span> Development</div>
+                        <ul>
+                            <li><div class="line1">HTML & CSS</div></li>
+                            <li><div class="line1">JavaScript</div></li>
+                            <li><div class="line1">Webflow</div></li>
+                            <li><div class="line1">Bootstrap</div></li>
+                        </ul>
+                    </div>
+                </div> 
 
-          <div class="skill">
-            <p>Html</p>
-            <div
-              class="progress-line"
-              style="--bg: yellow; --wd: 84%; --tx: '84%'"
-            >
-              <span></span>
-            </div>
-          </div>
+                <div class="proffesioncy_box">
+                    <div class="proffesioncy_box_icon"><i class="fa-solid fa-server"></i></div>
+                    <div class="lines">
+                        <div class="profffesioncy_line_heading"><span style="color: #00f2ff;">Backend</span> & Programming</div>
+                        <ul>
+                            <li><div class="line1">Python (basic + advanced)</div></li>
+                            <li><div class="line1">C++</div></li>
+                            <li><div class="line1">SQL (basics)</div></li>
+                        </ul>
+                    </div>
+                </div> 
 
-          <div class="skill">
-            <p>Css</p>
-            <div
-              class="progress-line"
-              style="--bg: #3bd8ff; --wd: 80%; --tx: '80%'"
-            >
-              <span></span>
-            </div>
-          </div>
+                <div class="proffesioncy_box">
+                    <div class="proffesioncy_box_icon"><i class="fa-solid fa-chart-area"></i></div>
+                    <div class="lines">
+                        <div class="profffesioncy_line_heading"><span style="color: #00f2ff;">Data Science</span> (in Progress)</div>
+                        <ul>
+                            <li><div class="line1">Pandas&NumPy</div></li>
+                            <li><div class="line1">Seaborn</div></li>
+                            <li><div class="line1">Statistics</div></li>
+                            <li><div class="line1">Linear Algebra</div></li>
+                        </ul>
+                    </div>
+                </div> 
+                
+                <div class="proffesioncy_box">
+                    <div class="proffesioncy_box_icon"><i class="fa-solid fa-rocket"></i></div>
+                    <div class="lines">
+                        <div class="profffesioncy_line_heading">Core Tools & <span style="color: #00f2ff;">Growth</span></div>
+                        <ul>
+                            <li><div class="line1">Git & GitHub</div></li>
+                            <li><div class="line1">Problem Solving</div></li>
+                            <li><div class="line1">Collaboration</div></li>
+                        </ul>
+                    </div>
+                </div> 
 
 
+            </div> <!-- Boxes container ends here -->
+        </div> <!-- Proffesioncy content ends here -->
+    </div> <!-- Proffesioncy section ends here -->
 
-          <div class="skill">
-            <p>Graphic Designing</p>
-            <div
-              class="progress-line"
-              style="--bg: rgb(21, 255, 0); --wd: 60%; --tx: '60%'"
-            >
-              <span></span>
-            </div>
-          </div>
-
-
-          
-        </div>
-      </div>
-    </section>
-    <!--Services  section designe end-->
-
-    <!--Portfolio  section designe start-->
-    <section class="portfolio" id="portfolio">
-      <h2 class="start">Last <span>Project</span></h2>
-      <div class="portfolio-content">
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Simpl school website</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="file:///D:/web%20development%20projects/shop%20website/index.html"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Portfolio website</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="#"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Personal website</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="#"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Property website</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="#"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Food Website</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="#"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="portfolio pic.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h2>Website for shop</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              praesentium eligendi?
-            </p>
-            <a href="#"><i class="fa-brands fa-link"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Portfolio  section designe-->
-    <!--Portfolio  section designe-->
-    <section class="contect" id="contect">
-      <h2 class="start">Contact <span>Me</span></h2>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Enter Email address" />
-        </div>
-
-        <div class="input-box">
-          <input type="number" placeholder="Phon number " />
-          <input type="text" placeholder="Enter Email Subject " />
-        </div>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Enter Your message"
-        ></textarea>
-        <input type="submit" value="send message" class="btn" />
-      </form>
-    </section>
-    <!--contect  section designe-->
-    <!--js  section designe-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="webprojectone.js"></script>
-    <!--js  section designe-->
-  </body>
+    </div> <!-- Container ends here -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
