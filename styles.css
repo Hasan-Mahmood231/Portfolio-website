@@ -332,6 +332,7 @@ body{
     }
     .about_section_text p{
         font-size: 3.2em;
+        width: 100%;
     }
 }
 
@@ -340,7 +341,7 @@ body{
 .progress_section{
     font-size: 5px;
     margin-top: 105px;
-    padding-bottom: 12%;
+    padding-bottom: 7%;
     display: flex;
     justify-content: center;
 }
@@ -358,6 +359,9 @@ body{
     font-size: 8em;
     font-weight: 700;
     color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .progress_section .progress_section_content .boxes{
     width: 95%;
@@ -469,8 +473,8 @@ body{
 
 .proffesioncy_section{
     background: #050a10;
-    padding-top: 103px;
-    padding-bottom: 103px;
+    padding-top: 89px;
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
     font-size: 16px;
@@ -483,11 +487,15 @@ body{
 }
 .proffesioncy_heading{
     margin-bottom: 61px;
+    font-family: Poppins ,sans-serif;
+    font-weight: 700;
 }
 .proffesioncy_heading_text{
     color: #fff;
-    font-size: 2.3em;
-    font-weight: 700;
+    font-size: 2.8em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .boxes_container {
     width: 95%;
@@ -503,7 +511,7 @@ body{
     line-height: 22px;
     height: 132px;
     font-weight: 600;
-    margin-bottom: 139px;
+    margin-bottom: 116px;
 }
 .proffesioncy_box .lines ul{
     list-style: none;
@@ -593,7 +601,7 @@ body{
 @media(max-width: 768px){
     .boxes_container {
         width: 100%;
-        padding: 36px 6% 36px 56px;
+        padding: 36px 6% 36px 65px;
         margin-left: 4%;
 }
 }
@@ -612,7 +620,7 @@ body{
             font-size:8px;
     }
     .proffesioncy_box_icon {
-        margin-right: 55px;
+        margin-right: 63px;
         height: 116px;
         width: 116px;
     }
@@ -645,4 +653,52 @@ body{
     .proffesioncy_box{
         width: 100%;
     }
+}
+
+/* ============================================= < contact Section > ===========================================  */
+
+.contact{
+    padding-bottom: 5%;
+}
+.contact .container{
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    padding-top: 112px;
+    align-items: center;
+}
+.contact .container .contact_heading_text{
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6%; 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact .container .contacts {
+    color: #fff;
+    font-size: 2.3em;
+}
+.contact .container .contacts .contacts_line{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.contacts .contacts_line a{
+    margin-left: 7px;
+    color: #5a5df5;
+}
+.contacts .contacts_line i{
+    margin-right: 33px;
+    font-size: 2.2em;
+    line-height: 78px;
+    color: #ffeb3b;
+}
+.contact_discraption{
+    font-size: 1.8em;
+    width: 65%;
+    text-align: center;
+    color: #878181;
+    margin-bottom: 37px;
 }
