@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         navbar.style.marginTop = "-60px";
     });
     close_menu.addEventListener("click", () => {
-        navbar.style.marginTop = "-485px";
+        navbar.style.marginTop = "-636px";
     });
 
     // === Mousemove Animation for Boxes ===
