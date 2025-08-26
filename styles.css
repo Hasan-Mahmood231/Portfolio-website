@@ -369,7 +369,7 @@ body{
 }
 .progress_section .progress_section_content{
     width: 95%;
-    font-size: 3px  ;
+    font-size: 5px;
 }
 /* .progress_section .progress_section_content .progress_section_heading{
 
@@ -379,7 +379,7 @@ body{
     width: fit-content;      /* sirf jitna text hai utna width le */
     margin-left: 50%;
     transform: translateX(-50%);
-    font-size: 8em;
+    font-size: 13em;
     font-weight: 700;
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
@@ -487,8 +487,9 @@ body{
         padding: 37px;   
     }
     .progress_section .progress_section_content .progress_section_heading .progress_heading{
-        font-size: 14em;
-        width: 259px;
+        font-size: 11em;
+        width: 100%;
+        text-align: center;
     }
 }
 
