@@ -540,9 +540,9 @@ body{
 .proffesioncy_box .lines ul{
     list-style: none;
 }
-.proffesioncy_box .lines{
+/* .proffesioncy_box .lines{
     
-}
+} */
 .proffesioncy_box .lines ul li{
     position: relative;
 }
