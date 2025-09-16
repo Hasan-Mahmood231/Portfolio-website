@@ -672,10 +672,20 @@ body{
         margin-left: 0%;
     }
     .proffesioncy_heading_text{
-        font-size: 2em;
+        font-size: 4em;
     }
     .proffesioncy_box{
         width: 100%;
+    }
+}
+@media(max-width: 426px){
+        .proffesioncy_heading_text {
+        font-size: 3.8em;
+    }
+}
+@media(max-width: 365px){
+    .proffesioncy_heading_text{
+        font-size: 4.4em;
     }
 }
 
@@ -703,6 +713,7 @@ body{
 .contact .container .contacts {
     color: #fff;
     font-size: 2.3em;
+    padding: 12px;
 }
 .contact .container .contacts .contacts_line{
     display: flex;
