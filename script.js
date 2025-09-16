@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // === Typing Animation ===
     const textElement = document.getElementById('changing-text');
-    const textsToType = ["Frontend developer", "Data Science learner", "AI Explorer"];
+    const textsToType = ["Frontend developer", "Data Science learner", "Exploring Ai"];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
